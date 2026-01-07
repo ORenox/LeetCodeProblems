@@ -1,6 +1,3 @@
-# Readme en Kotlin
-
-```kotlin
 class Solution {
     fun addBinary(a: String, b: String): String {
         
@@ -27,4 +24,7 @@ class Solution {
 
     }
 }
-```
+//kotlinc LC001_TwoSum.kt -include-runtime -d LC001_TwoSum.jar
+//java -jar LC001_TwoSum.jar
+
+//kotlinc LC001_TwoSum.kt -include-runtime -d run.jar && java -jar run.jar
